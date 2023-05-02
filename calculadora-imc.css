@@ -1,0 +1,37 @@
+body{
+    background-color: rgba(10, 4, 9, 0.447);
+    color: #fff;
+    text-align: center;
+}
+
+#texto{
+    background-color: rgba(255, 166, 0, 0.636);
+    height: 50px;
+    border-radius: 5px;
+}
+
+#descExercicios{
+    background-color: rgb(241, 161, 14);
+    border-radius: 14px;
+    padding: 30px;
+    width: 400px;
+    margin-right: 30px;
+    margin-left: 400px;
+
+
+}
+
+input{
+    border-radius: 10px;
+}
+
+#botao{
+    color: #fff;
+    background-color: orange;
+    border-radius: 14px;
+    cursor: auto;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

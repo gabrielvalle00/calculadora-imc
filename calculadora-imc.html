@@ -25,18 +25,52 @@
     </div>
 
     <form onsubmit="return calcular(event)">
+
+        <h2>Informação da primeira pessoa</h2>
+
+        <label>Digite seu nome:</label><br><br>
+        <input type="text" nome="nome1" id="nome1" /><br><br>
+
         <label>Digite seu peso:</label><br><br>
-        <input type="text" nome="peso" id="peso"
-        placeholder="Exemplo: 65" /><br><br>
+        <input type="text" nome="peso1" id="peso1" placeholder="Exemplo: 65" /><br><br>
 
         <label>Digite sua altura:</label><br><br>
-        <input type="text" nome="altura" id="altura"
-        placeholder="Exemplo: 1.90" /><br><br>
+        <input type="text" nome="altura1" id="altura1" placeholder="Exemplo: 1.90" /><br><br>
 
-        <input type="submit" value="Calcular IMC">
+        <div id="resultado1"></div>
+
+        <h2>Informação da segunda pessoa</h2>
+
+        <label>Digite seu nome:</label><br><br>
+        <input type="text" nome="nome2" id="nome2" /><br><br>
+
+        <label>Digite seu peso:</label><br><br>
+        <input type="text" nome="peso2" id="peso2" placeholder="Exemplo: 65" /><br><br>
+
+        <label>Digite sua altura:</label><br><br>
+        <input type="text" nome="altura2" id="altura2" placeholder="Exemplo: 1.90" /><br><br>
+
+        <div id="resultado2"></div>
+
+        <h2>Informação da terceira pessoa</h2>
+
+        <label>Digite seu nome:</label><br><br>
+        <input type="text" nome="nome3" id="nome3" /><br><br>
+
+        <label>Digite seu peso:</label><br><br>
+        <input type="text" nome="peso3" id="peso3" placeholder="Exemplo: 65" /><br><br>
+
+        <label>Digite sua altura:</label><br><br>
+        <input type="text" nome="altura3" id="altura3" placeholder="Exemplo: 1.90" /><br><br>
+
+        <div id="resultado3"></div>
+
+        <input type="submit" value="Calcular IMC" id="botao">
     </form>
 
-    <div id="resultado"></div>
+    
+    
+
 
     <script src="../calculadora-imc/calculadora-imc.js" ></script>   
 </body>
